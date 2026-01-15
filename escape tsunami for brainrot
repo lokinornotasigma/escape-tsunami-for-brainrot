@@ -1,0 +1,51 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("fah hub", "Ocean")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Teleports")
+
+
+MainSection:NewButton("tp common", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (202.70, -2.77, 0.19)
+end)
+
+
+MainSection:NewButton("tp uncommon", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (283.89, -2.77, 6.13)
+end)
+
+
+MainSection:NewButton("tp rare", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (399.02, -2.77, 7.01)
+end)
+
+
+MainSection:NewButton("tp epic", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (542.69, -2.77, 5.79)
+end)
+
+
+MainSection:NewButton("tp legendary", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (756.07, -2.77, 4.31)
+end)
+
+
+MainSection:NewButton("tp mythic", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (1076.24, -2.77, -2.20)
+end)
+
+
+MainSection:NewButton("tp cosmic", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (1556.55, -2.77, 0.91)
+end)
+
+
+MainSection:NewButton("tp secret", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (2256.83, -2.77, -0.15)
+end)
+
+
+MainSection:NewButton("tp celestrial", "idk", function()
+    game:GetService("Workspace").Vesel72.HumanoidRootPart.CFrame = CFrame.new (2605.42, -2.77, 4.22)
+end)
